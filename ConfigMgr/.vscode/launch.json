@@ -1,0 +1,46 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "label_1909",
+            "program": "${workspaceFolder}/App.js",
+            "stopOnEntry": false,
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy",
+                "--use_strict",
+                "--expose-gc"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "label_xxxx总之就是另一个",
+            "program": "${workspaceFolder}/App2.js",
+            "stopOnEntry": false,
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy",
+                "--use_strict",
+                "--expose-gc"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+        }
+    ]
+}
